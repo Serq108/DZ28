@@ -1,0 +1,14 @@
+a{ 
+  text-decoration: none; /* Отменяем подчеркивание у ссылки */
+}
+
+
+.App {
+  position: relative;
+  width: 100%;
+  max-width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  background-color: #D0F9DE;
+}
