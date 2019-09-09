@@ -1,0 +1,75 @@
+.reg-form {
+  position: relative;
+  width: 250px;
+  height: 350px;
+  padding: 15px 25px 0 25px;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: default;
+  
+  background-color: #141517;
+  
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  
+  -webkit-box-shadow: 0px 1px 1px 0px rgba(255,255,255, .2), inset 0px 1px 1px 0px rgb(0,0,0);
+  -moz-box-shadow: 0px 1px 1px 0px rgba(255,255,255, .2), inset 0px 1px 1px 0px rgb(0,0,0);
+  box-shadow: 0px 1px 1px 0px rgba(255,255,255, .2), inset 0px 1px 1px 0px rgb(0,0,0);
+}
+
+
+.reg-form h1 {
+  line-height: 40px;
+  font-family: 'Myriad Pro', sans-serif;
+  font-size: 22px;
+  font-weight: normal;
+  color: #e4e4e4;
+} 
+
+.reg-form input{
+  line-height: 14px;
+  margin: 10px 0;
+  padding: 6px 15px;
+  border: 0;
+  outline: none;
+  width: 200px;
+  
+  font-family: Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  text-shadow: 0px 1px 1px rgba(255,255,255, .2);
+  
+  -webkit-border-radius: 26px;
+  -moz-border-radius: 26px;
+  border-radius: 26px;
+  
+  -webkit-transition: all .15s ease-in-out;
+  -moz-transition: all .15s ease-in-out;
+  -o-transition: all .15s ease-in-out;
+  transition: all .15s ease-in-out;
+}
+
+.reg-form input[type=submit] {
+  float: right;
+  cursor: pointer;
+  width: 75px;
+  color: #445b0f;
+  
+  -webkit-box-shadow: inset 1px 1px 1px 0px rgba(255,255,255, .45), 0px 1px 1px 0px rgba(0,0,0, .3);
+  -moz-box-shadow: inset 1px 1px 1px 0px rgba(255,255,255, .45), 0px 1px 1px 0px rgba(0,0,0, .3);
+  box-shadow: inset 1px 1px 1px 0px rgba(255,255,255, .45), 0px 1px 1px 0px rgba(0,0,0, .3);
+}
+
+.reg-link {
+  line-height: 40px;
+  font-family: 'Myriad Pro', sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  color: #e4e4e4;
+} 
+.reg-link:hover {
+  font-size: 20px;
+  color: #a4f4a4;
+}
